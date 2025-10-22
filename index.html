@@ -5,25 +5,34 @@
   <title>Quản lý Nhân sự - HRM</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- Liên kết đến file CSS -->
+  <!-- Liên kết file CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <h1><em>Quản lý Nhân sự</em></h1>
 
+  <!-- Form thêm nhân viên -->
   <div class="form-box">
-    <input id="name" placeholder="Tên"><br>
+    <input id="name" placeholder="Tên nhân viên"><br>
     <input id="email" placeholder="Email"><br>
     <button id="btnAdd">Thêm</button>
   </div>
 
+  <!-- Bảng danh sách nhân viên -->
   <table id="tbl">
-    <thead><tr><th>Tên</th><th>Email</th><th>Lựa chọn</th></tr></thead>
+    <thead>
+      <tr>
+        <th>Tên</th>
+        <th>Email</th>
+        <th>Hành động</th>
+      </tr>
+    </thead>
     <tbody></tbody>
   </table>
 
- 
+  <!-- Import module JS theo đúng thứ tự -->
+  <script src="modules/employeeDbModule.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
