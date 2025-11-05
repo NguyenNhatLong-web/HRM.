@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  text-align: center;
+}
+h1 { color: red; }
+.form-box {
+  margin: 20px auto;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  width: 80%;
+}
+button {
+  padding: 5px 10px;
+  border: none;
+  background: dodgerblue;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.hidden { display: none; }
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 60%;
+  background: white;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  text-align: center;
+}
+
+h1 {
+  color: #e63946;
+}
+
+#app {
+  margin-top: 30px;
+}
+
+button {
+  background: dodgerblue;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e90ff;
+}
+
+input, select {
+  padding: 6px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+body{
+  background-image: url("https://th.bing.com/th/id/R.822a4c7497d6e4b1bdb8e77a1516bbe1?rik=bEylWjiJZgJkXQ&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
